@@ -1,0 +1,96 @@
+.second-nav{
+    height: 40px;
+    width: 100%;
+    background-color: lightslategray;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 1000;
+    /* position: fixed; */
+    /* top: ; */
+}
+.second-nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: snow;
+}
+
+.dog img{
+    width: 50%;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+img{
+    margin: 80px;
+    
+}
+h3{
+    color: rgb(235, 137, 18);
+    
+}
+ul{
+    color: orange;
+}
+body{
+    background-color: lightpink;
+}
+#works{
+    display: grid;
+    align-items: center;
+    column-gap: 5px;grid-template-columns: 1fr 1fr 1fr;
+    
+
+}
+/* nekscnsk */
+.contact{
+    height: 270px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    background-color: grey;
+}
+
+.cnt{
+    height: 200px;
+    width: 200px;
+    background-color: transparent;
+    border: 0px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: column ;
+    position: relative;
+    top: 50px;
+}
+.cnt a{
+    text-decoration: none;
+    color: white;
+}
+.cnt h4{
+    color: white;
+    font-weight: 800;
+    
+}
+
+
+.cnt a:hover{
+    color: orange;
+}
+.contact-end{
+    height: 50px;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.contact-end a{
+    padding: 10px;
+    color: white;
+}
+.contact-end a:hover{
+    color: rgb(27, 77, 203);
+}
